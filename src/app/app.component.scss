@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
-html,
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
 }
 
 nav {
@@ -25,7 +36,7 @@ nav {
     background-color: rgba(193, 193, 193, 0.7);
     position: fixed;
     z-index: 99;
-    backdrop-filter:blur(0.5px);   
+    backdrop-filter: blur(0.5px);
 }
 
 .router-outlet {
@@ -46,19 +57,21 @@ a {
 }
 
 :host {
-    margin: 0;
+    overflow-x: hidden !important;
+    margin: -8px;
     padding: 0;
     display: flex;
     flex-direction: row;
 }
 
 app-root {
-    margin: 0;
+    overflow-x: hidden !important;
+    margin: 0 !important;
     padding: 0;
 }
 
 .lexend {
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }

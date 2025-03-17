@@ -1,0 +1,15 @@
+{
+    "nav":{
+        "home": "Home",
+        "about": "About"
+    },
+
+    "main":{
+        "mainText": "Welcome to Safetok",
+        "subTitle": "Secure and private 1 on 1 video calls.<br>No phone number, no email, no account creation, no app install.",
+        "createNewMeeting": "Create a new meeting now",
+        "createLaterMeeting": "Create a new meeting for later",
+        "joinMeeting": "Join to a meeting"
+    }
+
+}

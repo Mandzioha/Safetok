@@ -1,8 +1,2 @@
-<body>
-  
-  <nav>
-    <a routerLink="/main">Home</a>
-    <a routerLink="/about">About</a>
-  </nav>
-  <router-outlet class="router-outlet"></router-outlet>
-</body>
+<app-nav [mainRoute]="mainRoute" [aboutRoute]="aboutRoute"></app-nav>
+<router-outlet></router-outlet>

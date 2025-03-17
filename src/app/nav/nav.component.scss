@@ -1,0 +1,52 @@
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+  }
+
+  .bar {
+    z-index: 10;
+    
+    height: 4px;
+    width: 100%;
+    background-color: black;
+  }
+
+  nav {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: aqua;
+    opacity: 0.9;
+    padding-left: 20px;
+    text-align: left;
+    height: 100%;
+  }
+
+  nav.open {
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    width: 200px;
+
+    a {
+        font-size: 20px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+      }
+      a.active {
+        font-weight: bold;
+        // color: blue;
+      }
+  }
+
+  
+  

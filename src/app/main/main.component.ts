@@ -1,11 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
+import { injectTranslation } from '../translations/translator';
 
 @Component({
   selector: 'app-main',
-  imports: [],
   templateUrl: './main.component.html',
-  styleUrl: './main.component.scss'
+  styleUrls: ['./main.component.scss']
 })
-export class MainComponent {
-
+export class MainComponent implements OnInit {
+  ngOnInit(): void {
+    injectTranslation();
+  }
+  // Component logic here
 }

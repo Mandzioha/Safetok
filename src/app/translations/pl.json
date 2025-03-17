@@ -1,0 +1,17 @@
+{
+    "nav":{
+        "home": "Strona Główna",
+        "about": "O nas",
+        "directCall": "Połączenie bezpośrednie"
+    },
+
+    "main":{
+        "mainText": "Witaj w Safetok",
+        "subTitle": "Bezpieczne i prywatne rozmowy 1 na 1.<br>Bez numeru telefonu, maila, tworzenia konta i instalowania aplikacji.",
+        "createNewMeeting": "zacznij<br>spotkanie teraz",
+        "createLaterMeeting": "utwórz spotkanie<br>do późniejszego<br>wykorzystania",
+        "joinMeeting": "dołącz do<br>spotkania",
+        "test": "test"
+    }
+
+}
